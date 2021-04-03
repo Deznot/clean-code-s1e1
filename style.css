@@ -22,7 +22,7 @@
   .intro { 
     text-align: center;
   }
-  
+
 }
 .main {
   display: block;
@@ -38,14 +38,14 @@
   display: flex;
 }
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list__item, .main__title {
-  list-style:none;
+  list-style: none;
 }
 .input, .btn {
-  outline:none;
+  outline: none;
 }
 .btn {
   background: none;
@@ -81,7 +81,7 @@
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
-  box-sizing:border-box; /* check*/
+  box-sizing: border-box; /* check*/
 }
 .input:focus {
   color: #333;
@@ -139,14 +139,14 @@
 
 /* Edit Task */
 .list__item .list__input {
-  display:none
+  display: none
 }
 
 .list .main__item--edit .list__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list .main__item--edit .list__label {
-  display:none;
+  display: none;
 }
